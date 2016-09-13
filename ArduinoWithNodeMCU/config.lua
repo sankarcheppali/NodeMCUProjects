@@ -1,12 +1,12 @@
 local module = {}
 
 module.SSID = {}
-module.SSID["Ravindra-152"] = "goodjob1"
+module.SSID["SSID"] = "PASS"
 
-module.HOST = "m10.cloudmqtt.com"
-module.PORT = 16019
-module.USERNAME = "nodemcu"
-module.PASSWORD = "pass01@23"
+module.HOST = "HOST"
+module.PORT = PORT
+module.USERNAME = "username"
+module.PASSWORD = "password"
 module.ID = node.chipid()
 
 module.ENDPOINT = "/nodemcu/"..node.chipid().."/arduino"
